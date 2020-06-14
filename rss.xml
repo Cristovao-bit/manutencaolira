@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>MANUTENÇÃO LIRA - Suporte Ténico em Tecnologia</title>
+        <link>http://www.manutencaolira.com.br</link>
+        <description>Manutenção Lira é uma empresa de suporte técnico em informática voltado para usuários domésticos e empresas de pequeno porte.</description>
+        <language>pt-br</language>
+        <item>
+            <title>MANUTENÇÃO LIRA - Suporte Ténico em Tecnologia</title>
+            <link>http://www.manutencaolira.com.br</link>
+            <pubDate><?= date('D, d M Y H:i:s 0'); ?></pubDate>
+            <description>Manutenção Lira é uma empresa de suporte técnico em informática voltado para usuários domésticos e empresas de pequeno porte.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Empresa</title>
+            <link>https://www.manutencaolira.com.br/empresa</link>
+            <pubDate><?= date('D, d M Y H:i:s 0'); ?></pubDate>
+            <description>Manutenção Lira é uma empresa que está a mais de 7 anos no mercado de informática, aperfeiçoando os serviços e oferecendo a mesma, tentando na medida do impossível 
+                         adaptar os serviços de informática e suas tecnologias para cada perfil de seus clientes.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Serviços</title>
+            <link>https://www.manutencaolira.com.br/servicos</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Trabalhamos com o suporte técnico em computadores domésticos (Pcs), desde de sua formatação até a montagem na residência com instalação de periféricos e aterramento.
+                        O suporte técnico em Técnologia em notebooks, netebooks e ultrabooks, desde de sua formatação até o reparo e update de peças e criação e manutenção em sites, blogs e 
+                        portfólios online.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Serviços Desktops</title>
+            <link>https://www.manutencaolira.com.br/servicos</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Trabalhamos com o suporte técnico em computadores domésticos (Pcs), desde de sua formatação até a montagem na residência com instalação de periféricos e aterramento.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Serviços Notebooks</title>
+            <link>https://www.manutencaolira.com.br/servicos</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>O suporte técnico em Técnologia em notebooks, netebooks e ultrabooks, desde de sua formatação até o reparo e update de peças.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Serviços Websites</title>
+            <link>https://www.manutencaolira.com.br/servicos</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Criação e manutenção em sites.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Blog</title>
+            <link>https://www.manutencaolira.com.br/blog</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Dicas e conteúdos separados para você que quer entender mais sobre o mundo da tecnologia.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Fale Conosco</title>
+            <link>https://www.manutencaolira.com.br/contato</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Entre em contato conosco pelos meios disponibilizados ou venha até nós e desfrute de nossos serviços.</description>
+        </item>
+        <item>
+            <title>MANUTENÇÃO LIRA | Book Online</title>
+            <link>https://www.manutencaolira.com.br/bookonline</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>Tenha acesso ao histórico de serviços realizados em seu equipamento na manutenção lira, configurações que ele
+                        possui e outros serviços disponibilizados na plataforma.</description>
+        </item>
+        <item>
+            <title>Erro 404! Página não encontrada</title>
+            <link>https://www.manutencaolira.com.br/404</link>
+            <pubDate>Wed, 01 Oct 2014 16:19:12 -0300</pubDate>
+            <description>A página <b>' . $setUrl . '</b> que você tentou acessar está indisponível ou não existe, mas não
+                        saia ainda. Temos algumas dicas para te ajudar com a pesquisa!</description>
+        </item>
+    </channel>
+</rss>

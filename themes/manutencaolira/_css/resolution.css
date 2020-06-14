@@ -1,0 +1,190 @@
+/* 
+    Created on : 27/05/2019, 13:32:19
+    Author     : Cristovão L. Braga
+*/
+
+@media (max-width: 1290px){
+    .main_email{flex-basis: 40%;}
+    .main_map{flex-basis: 20%;}
+    .main_contact{flex-basis: 30%;}
+}
+
+@media (max-width: 1240px){
+    .main_serv .main_serv_item .main_serv_content{height: 220px;}
+    .main_servicos_item{flex-basis: 30%; margin-right: 5%;}
+    .main_servicos_item:nth-child(3n+0){margin-right: 0;}
+    .main_servicos_item:nth-child(4n+0){margin-right: 5%;}
+    .main_servicos_item:nth-child(12n+0){margin-right: 0;}
+    .main_servicos_item:nth-child(20n+0){margin-right: 0;}
+}
+
+@media (max-width: 1130px){
+    .main_serv .main_serv_item{flex-basis: calc(30% - 20px); margin: 80px 10px 30px;}
+    .book_box .book_login{width: 40%;}
+    .book_box .book_register{width: 40%;}
+    .main_slide{height: 150px;}
+}
+
+@media (max-width: 1100px){
+    .main_serv .main_serv_item{flex-basis: calc(45% - 20px); margin: 80px 10px 30px;}
+    .main_serv .main_serv_item:nth-child(2n+0){margin-right: 0;}
+    .main_serv .main_serv_item .main_serv_content{height: 150px;}
+    .main_hero{height: 600px;}
+    .empresa_box .empresa_social_network{width: 100%;}
+    .empresa_box .empresa_content .empresa_content_p{flex-basis: 100%; text-align: justify;}
+    .empresa_box .empresa_content .empresa_logo{flex-basis: 30%; margin: 0 35%;}
+    .empresa_ceo{height: 400px;}
+    .empresa_ceo .foto-perfil{flex-basis: 20%; margin: 0 40% 10px;}
+    .empresa_ceo p{flex-basis: 100%; text-align: center;}
+    .fale_conosco article{flex-basis: 100%;}
+    .fale_conosco_sidebar{flex-basis: 100%; text-align: center;}
+}
+
+@media (max-width: 1010px){
+    .main-content .main_footer{justify-content: center; text-align: center;}
+    .main_map{flex-basis: 100%; margin-bottom: 15px;}
+    .main_contact{flex-basis: 100%; margin-left: 0;}
+}
+
+@media (max-width: 980px){
+    .main_divulg .main_divulg_item{flex-basis: 23%; margin: 0 2% 20px 0;}
+    .main_divulg .main_divulg_item:nth-child(4n+0){margin-right: 0;}
+    .blog_content_destaque{flex-basis: 100%; margin: 0 0 30px 0;}
+    .blog_content_aside{flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px; color: #000; background: #fbc02d; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+    .blog_content_aside .line-title{flex-basis: 100%; border-bottom: 1px solid #000;}
+    .blog_content_aside .title-color{border-color: #000;}
+    .blog_content_aside .blog_content_aside_item{flex-basis: 48%; margin: 0 2% 40px 0; border-bottom: 0 solid transparent;}
+    .blog_content_aside .blog_content_aside_item:last-child{margin-right: 0;}
+    .main_lastnews_menu nav{justify-content: center;}
+    .main_lastnews_menu nav ul{flex-basis: 100%; justify-content: center;}
+    .blog_content .blog_content_item{flex-basis: 30%; margin-right: 5%;}
+    .blog_content .blog_content_item:nth-child(4n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(5n+0){margin-right: 5%;}
+    .blog_content .blog_content_item:nth-child(7n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(10n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(12n+0){margin-right: 5%;}
+    .blog_content .blog_content_item:nth-child(14n+0){margin-right: 5%;}
+}
+
+@media (max-width: 860px){
+    .main_header_menu{display: none;}
+    .menu_toggle{display: block; position: fixed; font-size: 35px; top: 25px; right: 25px; right: 20px; color: #fff;}
+    .sidebar{display: block; top: 0; left: -230px; position: fixed; width: 230px; height: 100%; color: #fff; background: rgba(0,0,0,0.8); border-right: 1px solid #fff; transition: 0.5s;}
+    .sidebar.active{left: 0;}
+    .sidebar .sidebar_logo{width: 100%; padding: 30px 10px; border-bottom: 1px solid rgba(0,0,0,0.2); box-shadow: 0 1px 0  rgba(255,255,255,0.4); -moz-box-shadow: 0 1px 0  rgba(255,255,255,0.4); -webkit-box-shadow: 0 1px 0  rgba(255,255,255,0.4);}
+    .sidebar .sidebar_logo img{width: 50%; margin: 0 25%;}
+    .sidebar .sidebar_menu li{border: 1px solid rgba(0,0,0,0.2); box-shadow: 0 1px 0 rgba(255,255,255,0.2); -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.2); -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.2);}
+    .sidebar .sidebar_menu li a{display: block; color: #fff; padding: 12px 20px; transition: 0.5s;}
+    .sidebar .sidebar_menu li a:hover{background: #000; border-left: 2px solid #fff;}
+    .sidebar .sidebar_menu li a i{margin-right: 0.6em;}
+    .main_hero{height: 500px;}
+    .main_serv .main_serv_item .main_serv_content{height: 210px;}
+    .main_newslleter form{flex-basis: 80%; margin: 0 auto;}
+    .main_divulg .main_divulg_item{flex-basis: 30%; margin: 0 5% 20px 0;}
+    .main_divulg .main_divulg_item:nth-child(3n+0){margin-right: 0;}
+    .main_slide .slide_item .caption{width: 70%; margin: 0 15%;}
+    .main_slide .button_left{left: 90px;}
+    .main_slide .button_right{right: 90px;}
+    .aba_contato{top: 25%;}
+}
+
+@media (max-width: 820px){
+    .book_online_container .book_box{margin: 30px 0;}
+    .book_box .book_login{width: 60%; margin: 0 auto; border-top-right-radius: 5px; border-bottom-left-radius: 0;}
+    .book_box .book_register{width: 60%; margin: 0 auto; border-bottom-left-radius: 5px; border-top-right-radius: 0;}
+    .empresa_ceo{height: 500px;}
+    .empresa_ceo .foto-perfil{flex-basis: 25%; margin: 0 37.5% 10px;}
+}
+
+@media (max-width: 750px){
+    .main_servicos_item{flex-basis: 48%; margin-right: 2%;}
+    .main_servicos_item:nth-child(2n+0){margin-right: 0;}
+    .blog_content .blog_content_item{flex-basis: 48%; margin-right: 2%;}
+    .blog_content .blog_content_item:nth-child(3n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(5n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(11n+0){margin-right: 0;}
+    .blog_content .blog_content_item:nth-child(14n+0){margin-right: 0;}
+}
+
+@media (max-width: 700px){
+    .main_serv .main_serv_item{flex-basis: 100%;}
+    .main_serv .main_serv_item .main_serv_content{height: 110px;}
+    .main_newslleter .title-header{width: 80%; margin: 0 10%;}
+    .main_newslleter form input[type="text"], .main_newslleter form input[type="email"]{width: 100%; margin: 0 0 20px;}
+    .main_newslleter form input[type="submit"]{width: 100%;}
+    .main_slide .slide_item .caption{width: 70%; margin: 0 15%}
+    .main_slide .button_left{left: 70px;}
+    .main_slide .button_right{right: 70px;}
+    .blog_content_aside .blog_content_aside_item{flex-basis: 100%; margin-bottom: 30px; padding-bottom: 60px; border-bottom: 1px solid #000;}
+    .main_divulg .main_divulg_item{flex-basis: 48%; margin-right: 2%;}
+    .main_divulg .main_divulg_item:nth-child(2n+0){margin-right: 0;}
+    .main_slide{height: 180px;}
+    .main_slide .slide_item .caption{width: 70%; margin: 0 15%; top: 8%;}
+    .main_slide .button_left{left: 50px;}
+    .main_slide .button_right{right: 50px;}
+    .book_online_container .title-header{width: 80%; margin: 0 10%;}
+    .book_box .book_login{width: 80%; margin: 0 10%;}
+    .book_box .book_register{width: 80%; margin: 0 10%;}
+    .empresa_box .empresa_title{text-align: center;}
+    .main_footer_content .title-header{width: 80%; margin: 0 10%;}
+    .empresa_box .empresa_social_network li{margin-bottom: 10px;}
+    .empresa_ceo{height: 450px;}
+    .empresa_ceo .foto-perfil{flex-basis: 30%; margin: 0 35% 10px;}
+}
+
+@media (max-width: 650px){
+    .fale_conosco_form .fale_conosco_content{flex-basis: 100%;}
+    .paginator a, .paginator span{display: block; width: 50%; margin: 0 auto 8px;}
+}
+
+@media (max-width: 600px){
+    .empresa_ceo{height: 500px;}
+    .empresa_ceo .foto-perfil{flex-basis: 40%; margin: 0 30% 10px;}
+    .empresa_ceo p{text-align: justify;}
+}
+
+@media (max-width: 570px){
+    .main_lastnews_menu nav{flex-basis: 100%;}
+}
+
+@media (max-width: 550px){
+    .main_servicos_item{flex-basis: 100%; margin-right: 0;}
+}
+
+@media (max-width: 500px){
+    .main_email .main_email_info .bloc_infor_01{flex-basis: 100%; margin-right: 0;}
+    .main_email .main_email_info .bloc_infor_02{flex-basis: 100%;}
+    .empresa_ceo{height: 550px;}
+    .blog_content .blog_content_item{flex-basis: 100%; margin-right: 0;}
+}
+
+@media (max-width: 460px){
+    .main_hero header{padding-top: 40%;}
+    .main_serv .main_serv_item .main_serv_content{height: 180px;}
+    .main_divulg .main_divulg_item{flex-basis: 100%;}
+    .main_slide{height: 200px;}
+    .main_slide .button_left{left: 30px;}
+    .main_slide .button_right{right: 30px;}
+}
+
+@media (max-width: 404px){
+    .main_header_logo img{width: 150px; margin-top: 10px;}
+    .main_serv .main_serv_item .main_serv_content{margin-bottom: 60px;}
+    .main_slide{height: 200px;}
+    .main_slide .pagination{top: 85%;}
+    .main_slide .button_left{left: 15px;}
+    .main_slide .button_right{right: 15px;}
+    .book_box .book_login input[type="email"], .book_online_container .book_box .book_login input[type="password"]{width: 200px; padding: 10px 50px;}
+    .book_box .book_register input[type="text"], .book_box .book_register input[type="email"], .book_box .book_register input[type="password"]{width: 200px; padding: 10px 50px;}
+    .empresa_ceo{height: 500px;}
+    .empresa_ceo .foto-perfil{flex-basis: 80%; margin: 0 10%;}
+    .empresa_ceo p{text-align: justify;}
+    .fale_conosco_background{padding: 20px;}
+    .fale_conosco{justify-content: center;}
+    .fale_conosco_header{text-align: center;}
+    .fale_conosco_sidebar{margin-top: 20px;}
+    .fale_conosco_sidebar{flex-basis: 100%;}
+    .fale_conosco_sidebar ul li{text-align: center;}
+    .button_form{justify-content: center;}
+    .button_form .btn{display: block; width: 100%; margin-right: 0; margin-bottom: 10px;}
+}
