@@ -1,5 +1,5 @@
 <?php
-define('HOME', 'http://localhost/manutencao_lira/hospedagem');
+define('HOME', 'http://localhost/manutencaolira');
 define('THEMES', 'manutencaolira');
 define('INCLUDE_PATH', HOME . DIRECTORY_SEPARATOR . 'themes' . DIRECTORY_SEPARATOR . THEMES);
 define('REQUIRE_PATH', 'themes' . DIRECTORY_SEPARATOR . THEMES);
